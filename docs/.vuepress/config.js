@@ -3,6 +3,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: 'https://s3.bmp.ovh/imgs/2023/02/16/8d42caf2b4ba3334.png' }]
   ],
+  theme:'vdoing',
   themeConfig: {
     logo: 'https://s3.bmp.ovh/imgs/2022/12/02/bc7428e3916c3a4c.jpg',
     nav: [
@@ -15,29 +16,6 @@ module.exports = {
         ]
       },
     ],
-
-    sidebar: [
-      {
-        title: 'Basic',
-        path: '/Basic/',
-        collapsable: false,
-        sidebarDepth: 2,
-        children: [
-          '/Basic/Basic1',
-          '/Basic/Basic2'
-        ]
-      },
-
-      {
-        title: 'Java',
-        path: '/Java/',
-        collapsable: false,
-        sidebarDepth: 2,
-        children: [
-          '/Java/JavaSE',
-          '/Java/JavaEE'
-        ]
-      }
-    ]
+    sidebar: 'structuring',
   }
 }

@@ -4,7 +4,7 @@
   "description": "学习VuePress用的项目",
   "main": "index.js",
   "scripts": {
-	  "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^1.9.8"
+  },
+  "dependencies": {
+    "vuepress-theme-vdoing": "^1.12.8"
   }
 }
