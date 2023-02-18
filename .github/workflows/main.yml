@@ -16,7 +16,7 @@ jobs:
       - name: use Node.js  # 使用action库  actions/setup-node安装node
         uses: actions/setup-node@v3
         with:
-          node-version: 16.15.1
+          node-version: 16
       # 安装依赖
       - name: npm install 
         run: npm install 
