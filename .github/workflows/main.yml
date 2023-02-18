@@ -30,7 +30,7 @@ jobs:
         uses: easingthemes/ssh-deploy@v2.1.6
         env:
           # 使用GitHub仓库里的secret设置的值
-          SSH_PRIVATE_KEY: ${{ secrets.MYSERVER }} 
+          SSH_PRIVATE_KEY: ${{ secrets.MY_SERVER_PRIVATE_KEY }} 
           # 源目录，编译后生成的文件目录
           SOURCE: './docs/.vuepress/dist/'
           #服务器公网地址
