@@ -39,3 +39,5 @@ jobs:
           REMOTE_USER: 'root'
           #服务器中，代码部署的位置
           TARGET: '/opt/myblog'
+          #去除的文件
+          EXCLUDE: "/dist/, /node_modules/" 
