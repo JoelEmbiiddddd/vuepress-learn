@@ -4,11 +4,11 @@ export default <VdoingThemeConfig>{
   logo: 'https://s3.bmp.ovh/imgs/2022/12/02/bc7428e3916c3a4c.jpg',
   nav: [
     { text: '首页', link: '/' },
-    { text: '计算机基础', link: '/CouputerBasic' },
+    { text: '计算机基础', link: '/JavaSE/' },
     {
       text: 'Java', items: [
-        { text: 'JavaSE', link: '/JavaSE' },
-        { text: 'JavaEE', link: 'https://www.peterjxl.com/JavaEE' }
+        { text: 'JavaSE', link: '/JavaSE/' },
+        { text: 'JavaEE', link: '/JavaEE/' }
       ]
     },
   ],
