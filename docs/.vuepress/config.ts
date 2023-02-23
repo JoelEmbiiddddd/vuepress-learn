@@ -6,5 +6,9 @@ module.exports = {
   theme: 'vdoing',
   head,
   themeConfig,
-  plugins
+  plugins,
+  markdown: {
+    lineNumbers: true,
+    extractHeaders: ["h2", "h3", "h4"]
+  }
 }
