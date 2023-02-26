@@ -4,6 +4,11 @@ import plugins from "./config/plugins"
 module.exports = {
   title: '网站标题',
   theme: 'vdoing',
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
   head,
   themeConfig,
   plugins,

@@ -20,6 +20,9 @@ export default <VdoingThemeConfig>{
   editLinks: true,
   editLinkText: '编辑此页',
 
+  
+  lastUpdated: '上次更新', 
+
   // 页脚
   footer: {
     createYear: 2022,
