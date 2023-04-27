@@ -2,7 +2,7 @@ import head from "./config/head"
 import themeConfig from "./config/themeConfig"
 import plugins from "./config/plugins"  
 module.exports = {
-  title: '网站标题',
+  title: '网站标题ABC',
   theme: 'vdoing',
   locales: {
     '/': {
